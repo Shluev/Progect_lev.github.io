@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,500&family=Montserrat:wght@300&family=Oswald:wght@500&family=Underdog&display=swap');
+section{display:flex;
+		margin:20px;
+		}
+.lion_child h2{
+	font-family:'Underdog',cursive;
+	font-weight:bold;
+	font-size:50pt;
+	color:#003366;
+	text-shadow: 20px 20px 5px #228B22;
+}
+
+
+	q{text-decoration:line-through;
+		font-family:'DM Mono',cursive;
+	}		
+		
+p{text-indent:2px;
+word-spacing:2px;
+letter-spacing:2px;
+font-family:Oswald;		
+		}
+
+.logo{justify-content:center;
+	align-items:center;}
+.logo h1{
+	font-size:100px;
+	color:#7B001C;
+	font-family:Underdog;
+	text-shadow: 5px 12px 0px #911E42,
+	4px 10px 10px#93AA00;
+}
+.song{align-self:flex-start;
+		border-right:2px solid;
+		border-bottom:2px solid;
+		margin:20px;
+		padding:20px;}
+.song p{font-family:'Oswald',cursive;
+		font-size:15pt;
+		color:#800000;
+		font-weight:bold;}
+		
+.text{align-self:flex-end;
+		border-left:2px solid;
+		border-top:2px solid;
+		margin:20px;
+		padding:20px;
+}
+.text p{font-family:'Oswald',
+		cursive;
+		font-size:18pt;
+		color:#00008B;
+		font-weight:bold;}
+		
